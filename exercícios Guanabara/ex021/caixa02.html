@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            height: 100%;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(147, 53, 123);
+            margin: 0;
+            
+        }
+
+        header{
+            background-image: linear-gradient(185deg, #c720ff , #782c91);
+            color: #3A084B;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        header > h1{
+            margin-left: 15px;
+            text-shadow: 1px 1px 2px #663477;
+            color: #ffe9ff;
+        }
+
+        nav {
+            background-color: #6F108F;
+            padding: 3px;
+            border-radius: 7.5px;
+            box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.35);
+        }
+
+        :active{
+            color: #3A084B;
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: #fbf0ff;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+            color: #d372f3;
+        }
+
+        nav > a:active{
+            color: #46065b;
+            background-color: rgba(128, 128, 128, 0.241);
+        }
+
+        main{
+            background-color: #6F108F;
+            color: rgb(253, 233, 255);
+            text-shadow: 1px 1px 1px black;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: rgba(0, 0, 0, 0.35) -1px 9px 23px -7px;
+        }
+
+        article{
+            background-color: #ab1bdb;
+            padding: 5px;
+            border-radius: 13px;
+        }
+
+        article > aside{
+            background-color: #68008b;
+        }
+
+        footer{
+            background-color: #550C6D;
+            color: rgb(255, 199, 194);
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>    
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+            Esportes Políticas Tecnologia 
+        </section>
+
+        <section id="noticias">
+            <article>
+                <h2>Poema em forma de notícia</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam dignissimos veritatis ipsum nisi totam quis impedit ad amet, eos esse explicabo, voluptate at neque velit aut dolores. Sequi, ab quasi!</p>
+                <aside>
+                    <p>Artigo escrito por Vinicius de Moraes</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Vinicius</p>
+    </footer>
+    <div id="bola">
+    </div>
+</body>
+</html>

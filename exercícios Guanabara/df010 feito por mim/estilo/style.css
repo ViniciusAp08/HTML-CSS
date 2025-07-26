@@ -1,0 +1,194 @@
+@charset "UTF-8";
+
+@font-face{
+            font-family: 'idroid';
+            src: url(fontes/idroid.otf) format(opentype);
+        }
+
+        body{
+            background-color: #84E1AD;
+    
+        }
+        
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+
+        header{
+            background-image: linear-gradient(to bottom, #3CD883, #1A5C37); 
+            padding: 20px 0 10px 15px;
+            
+        }
+        
+        .phead{
+            text-align: center;
+        }
+
+        .txtshadow{
+            text-shadow: 1px 1px 1px  rgb(0, 0, 0);
+
+        }
+
+        header > h1, p{
+            text-align: center; 
+        }
+
+        header > h1{
+           color: #ffffff; 
+           padding: 0 0 30px 0;
+        }
+
+        header > p {
+            color: #abdcbf;
+            padding-bottom: 22px;
+        }
+        
+        .maiusc{
+            text-transform: uppercase;
+        }
+
+        .lintext1{
+            text-decoration: none;
+            color: white;
+            margin-right:   25px;
+            
+        }
+
+        .lintext1:hover{
+            background-color: #2cb166;
+            color: black;
+            border-radius: 5px;
+            padding: 10px;
+        }
+
+        .lintext2{
+            color: #269a58;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+
+        .lintext2::after{
+            content: "🔗";
+        }
+
+        .destaque{
+            color: #269a58;
+            font-weight: bold;
+        }
+
+        main{
+            background-color: white;
+            height: 50%;
+            width: 50%;
+            margin: auto;
+            box-shadow: 1px 3px 8px 0px rgba(0, 0, 0, 0.329);
+            border-radius: 0px 0px 10px 10px;
+        }
+
+        main img{
+            width: 100%;
+        }
+        
+        .tit1
+        {
+            color: #215d3d;
+            font-family: 'idroid', Arial, Helvetica, sans-serif;
+            padding: 15px;
+            font-size: 2em;
+        }
+
+        .tit2{
+            color: #215d3d;
+            background-color: #C5EBD6;
+            font-family: 'idroid', Arial, Helvetica, sans-serif;
+            margin: 15px;
+            padding: 0 0 0 20px;
+        }
+
+        .conf{
+            list-style-type: none;
+        }
+
+        p{
+            text-indent: 20px;
+            text-align: justify;
+            margin: 15px;
+        }
+
+        .conf::before{
+                content: "✔️";
+        }
+
+        .video{
+            border: #1A5C37 40px solid;
+            display: flex;
+            justify-content: center;
+        }
+
+        .lista{
+            list-style-type: none;
+        }
+
+        .q{
+            background-color: #2FA866;
+            padding: 10px;
+            margin: 0;
+            color: white;
+            border-radius: 10px 10px 0px 0px; 
+        }
+
+        .bugdroid{
+            display: flex;
+            justify-content: center;
+        }
+
+        .irina{
+            display: flex;
+            justify-content: center;
+        }
+
+        .dandroids{
+            display: flex;
+            justify-content: center;
+        }
+        
+        .table{
+           background-color: #C5EBD6;
+           border-radius: 10px;
+           margin: 16px;
+           padding: 0 0 90 0;
+           border-radius: 10px 10px 10px 10px;
+           box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.232);
+        }
+
+        .coluna{
+            column-count: 2;
+            margin: 10px;
+        }
+
+        .roda{
+            background-color: #1A5C37;
+            color: #81cea2;
+            margin: 0;
+            text-align: center;
+            padding: 10px;
+            
+        }
+        
+        .bold_nome{
+            color: white;
+        }
+
+        .txt1{
+            padding-bottom: 15px;
+        }
+
+        .txt2{
+            padding-bottom: 20px;
+        }
+
